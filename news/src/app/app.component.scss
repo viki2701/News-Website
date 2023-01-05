@@ -101,3 +101,25 @@ div.menu-icon{
         color:black
     }
 }
+
+div.nav-row{
+    height: 40px;
+    background-color: #000000d9;
+a{
+    div.nav-tab{
+        color: rgba(255, 255, 255, 0.9411764706);
+        padding: 6px;
+        margin-top: 2px;
+        font-family: math;
+    }
+    
+}
+a:hover{
+    text-decoration: none;
+    div.nav-tab:hover{
+       color:#B9BAA3;
+       border-bottom: solid #B9BAA3 3px;
+    }
+}
+
+}
