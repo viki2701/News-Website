@@ -107,7 +107,7 @@ div.nav-row{
     background-color: #000000d9;
 a{
     div.nav-tab{
-        color: rgba(255, 255, 255, 0.9411764706);
+        color: rgb(255 255 255 / 76%);
         padding: 6px;
         margin-top: 2px;
         font-family: math;
@@ -150,4 +150,54 @@ div.icon-left{
     }
     
 
+}
+
+
+div.subscribe-row-2{
+    a{
+        div{
+            height: 33px;
+            width: 80px;
+            color: rgb(255 255 255 / 76%);
+            font-family: math;
+            
+            margin-top: 3px;
+            padding-top: 4px;
+            padding-left: 8px;
+            border-radius: 30px;
+        }
+    }
+    a:hover{
+        text-decoration: none;
+       div{
+        background-color: #c7c8af24;
+        color:#B9BAA3;
+        
+       }
+        
+    }
+}
+
+div.icon-row-2{
+    a{
+        div{
+            height: 30px;
+        width: 30px;
+        padding-top: 4px;
+        padding-left: 6px;
+        margin-top: 5px;
+        }
+        i{
+            color:#B9BAA3;
+            font-size: 19px;
+        }
+        
+    }
+    a:hover{
+        text-decoration: none;
+        div{
+            background-color: #424242d1;
+        }
+
+    }
 }

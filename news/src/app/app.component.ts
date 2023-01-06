@@ -24,14 +24,12 @@ export class AppComponent {
     {
       name: 'Poltical',
     },
-    {
-      name: 'Cinema',
-    },
-    {
-      name: 'Current Issue',
-    },
+    
     {
       name: 'Weather',
+    },
+    {
+      name: 'Others',
     },
   ]
 }
