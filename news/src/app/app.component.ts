@@ -7,4 +7,31 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'news';
+
+  navtab=[
+    {
+      name: 'Headline',
+    },
+    {
+      name: 'Science & Technology',
+    },
+    {
+      name: 'World News',
+    },
+    {
+      name: 'Sports',
+    },
+    {
+      name: 'Poltical',
+    },
+    {
+      name: 'Cinema',
+    },
+    {
+      name: 'Current Issue',
+    },
+    {
+      name: 'Weather',
+    },
+  ]
 }
