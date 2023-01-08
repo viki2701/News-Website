@@ -57,4 +57,18 @@
 
         </div>
     </div>
+
+ <!--footer-->
+ <div class="row footer mt-3 mb-2">
+    <div class="col mx-2 d-flex flex-wrap">
+        <div class="d-flex footer-text mx-2" *ngFor="let f of footer">
+            <a href="#" [title]="f.name"><span>{{f.name}}</span></a>
+            <span class="gap ml-2"></span>
+        </div>
+        <div class="d-flex footer-text mx-2">
+            <a href="#" title="footer"><span>Ekqoop.LLC.</span></a>
+        </div>
+
+    </div>
+ </div>
 </div>                                           
