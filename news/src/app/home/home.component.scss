@@ -1,0 +1,230 @@
+div.header-main{
+    background-color: rgb(144 145 96 / 50%);
+    height: 75px;
+}
+div.logo-img{
+    margin-top:7px;
+    img{
+        height: 60px;
+        width: 55px;
+       
+    }
+    img:hover{
+        background-color: rgb(144 145 96 / 50%);
+    }
+}
+
+div.main-name{
+    justify-content: center;
+    img{
+        height: 53px;
+        width: 240px;
+        margin-top: 13px;
+    }
+}
+
+div.serach-box1{
+    margin-top: 18px;
+    margin-left: 9px;
+    input{
+        height: 40px;
+       max-width: 233px;
+        border-radius: 19px 0px 0px 19px;
+        border: none;
+        padding-left: 20px;
+        padding-bottom: 4px;
+        background-color: #00000012;
+    }
+    input:focus-visible{
+        outline:none;
+    }
+    button{
+        height: 40px;
+        width: 50px;
+        border-radius: 0px 19px 19px 0px;
+        border: none;
+        background-color: #00000012;
+    }
+    button:hover{
+        background-color: rgb(0 0 0 / 10%);
+    }
+    
+}
+
+div.icon-right{
+   a:hover{
+    text-decoration: none;
+   }
+}
+
+div.subscribe{
+    height: 40px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.055);
+    padding-top: 7px;
+    padding-left: 18px;
+    margin-top: 16px;
+    font-family: math;
+    text-decoration: none;
+    color:black
+}
+div.subscribe:hover{
+    background-color:rgba(0, 0, 0, 0.137);
+    
+}
+
+div.fb-icon{
+    height: 45px;
+    width: 45px;
+    margin-top: 12px;
+    text-decoration: none;
+    i{
+        font-size: 30px;
+        padding-top: 7px;
+        padding-left: 8px;
+        color:black
+        
+    }
+}
+div.fb-icon:hover{
+    background-color:rgba(0, 0, 0, 0.137);
+}
+
+div.menu-icon{
+    height: 45px;
+    width: 45px;
+    margin-top: 12px;
+    i{
+        font-size: 30px;
+        padding-top: 7px;
+        padding-left: 8px;
+        color:black
+    }
+}
+
+div.nav-row{
+    height: 40px;
+    background-color: #000000d9;
+a{
+    div.nav-tab{
+        color: rgb(255 255 255 / 76%);
+        padding: 6px;
+        margin-top: 2px;
+        font-family: math;
+    }
+    
+}
+a:hover{
+    text-decoration: none;
+    div.nav-tab:hover{
+       color:#B9BAA3;
+       border-bottom: solid #B9BAA3 3px;
+    }
+}
+
+}
+
+div.icon-left{
+    a{
+
+        div{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: #00000012;
+            padding-top: 8px;
+            padding-left: 12px;
+            margin-top: 18px;
+        }
+        i{
+            color: black;
+        }
+
+    }
+
+    a:hover{
+        text-decoration: none;
+        div{
+            background-color:rgba(0, 0, 0, 0.137);
+        }
+    }
+    
+
+}
+
+
+div.subscribe-row-2{
+    a{
+        div{
+            height: 33px;
+            width: 80px;
+            color: rgb(255 255 255 / 76%);
+            font-family: math;
+            
+            margin-top: 3px;
+            padding-top: 4px;
+            padding-left: 8px;
+            border-radius: 30px;
+        }
+    }
+    a:hover{
+        text-decoration: none;
+       div{
+        background-color: #c7c8af24;
+        color:#B9BAA3;
+        
+       }
+        
+    }
+}
+
+div.icon-row-2{
+    a{
+        div{
+            height: 30px;
+        width: 30px;
+        padding-top: 4px;
+        padding-left: 6px;
+        margin-top: 5px;
+        }
+        i{
+            color:#B9BAA3;
+            font-size: 19px;
+        }
+        
+    }
+    a:hover{
+        text-decoration: none;
+        div{
+            background-color: #424242d1;
+        }
+
+    }
+}
+
+//footer//
+
+div.footer{
+    border-top: solid #000000b8 5px;
+    background-color: rgb(144 145 96 / 26%);
+}
+div.footer-text{
+    margin-top:4px;
+    margin-bottom: 20px;
+    flex-wrap:nowrap;
+    a{
+        text-decoration: none;
+        color: rgb(44 44 44 / 85%);
+        font-weight: 500;
+
+
+    }
+
+    a:hover{
+        text-decoration: none;
+        color:rgb(60 57 57 / 70%);
+    }
+    span.gap{
+        border-right:solid rgb(44 44 44 / 47%) 1px;
+    }
+}
