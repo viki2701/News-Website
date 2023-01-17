@@ -14,7 +14,7 @@ export class MainbodyComponent implements OnInit {
 mainhome=[
   {
     img:'assets/img/content/Pongal.jpg',
-    para:'New Celebration end and Ponal Celebration start in TN',
+    para:'New Year Celebration end and Ponal Celebration start in TN',
     heading:'Pongal Celebration 2023',
     like:'10',
     dislike:'5',
